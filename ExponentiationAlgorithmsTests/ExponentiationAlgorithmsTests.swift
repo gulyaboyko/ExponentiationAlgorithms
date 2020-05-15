@@ -8,27 +8,123 @@
 
 import XCTest
 @testable import ExponentiationAlgorithms
+import AlgoTester
 
-class ExponentiationAlgorithmsTests: XCTestCase {
+final class AlgorithmsTests: XCTestCase {
 
+    var sut: ExponentiationAlgorithms?
+    
     override func setUp() {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+        super.setUp()
+        sut = ExponentiationAlgorithms()
     }
-
-    override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+    
+    func test_iterative_1023() {
+        measure {
+            let _ = sut?.iterateRase(base: 10, power: 1023)
+        }
     }
-
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    
+    func test_iterative_1024() {
+        measure {
+            let _ = sut?.iterateRase(base: 10, power: 1024)
+        }
     }
-
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
+    
+    func test_iterative_67108863() {
+        measure {
+            let _ = sut?.iterateRase(base: 10, power: 67108863)
         }
     }
 
+    func test_iterative_67108864() {
+        measure {
+            let _ = sut?.iterateRase(base: 10, power: 67108864)
+        }
+    }
+    
+    func test_iterative_1048576() {
+        measure {
+            let _ = sut?.iterateRase(base: 10, power: 1048576)
+        }
+    }
+    
+    func test_iterative_1048575() {
+        measure {
+            let _ = sut?.iterateRase(base: 10, power: 1048575)
+        }
+    }
+    
+    func test_powerOfTwoWithMultiplicatio_1023() {
+        measure {
+            let _ = sut?.powerOfTwoWithMultiplication(base: 10, power: 1023)
+        }
+    }
+    
+    func test_powerOfTwoWithMultiplicatio_1024() {
+        measure {
+            let _ = sut?.powerOfTwoWithMultiplication(base: 10, power: 1024)
+        }
+    }
+    
+    func test_powerOfTwoWithMultiplicatio_67108863() {
+        measure {
+            let _ = sut?.powerOfTwoWithMultiplication(base: 10, power: 67108863)
+        }
+    }
+
+    func test_powerOfTwoWithMultiplicatio_67108864() {
+        measure {
+            let _ = sut?.powerOfTwoWithMultiplication(base: 10, power: 67108864)
+        }
+    }
+    
+    func test_powerOfTwoWithMultiplicatio_1048575() {
+        measure {
+            let _ = sut?.powerOfTwoWithMultiplication(base: 10, power: 1048575)
+        }
+    }
+    
+    func test_powerOfTwoWithMultiplicatio_1048576() {
+        measure {
+            let _ = sut?.powerOfTwoWithMultiplication(base: 10, power: 1048576)
+        }
+    }
+    
+    func test_binary_67108864() {
+        measure {
+            let _ = sut?.binary(base: 10, power: 67108864)
+        }
+    }
+    
+    func test_binary_67108863() {
+        measure {
+            let _ = sut?.binary(base: 10, power: 67108863)
+        }
+    }
+    
+    func test_binary_1023() {
+        measure {
+            let _ = sut?.binary(base: 10, power: 1023)
+        }
+    }
+    
+    func test_binary_1024() {
+        measure {
+            let _ = sut?.binary(base: 10, power: 1024)
+        }
+    }
+    
+    func test_binary_1048576() {
+        measure {
+            let _ = sut?.binary(base: 10, power: 1048576)
+        }
+    }
+    
+    func test_binary_1048575() {
+        measure {
+            let _ = sut?.binary(base: 10, power: 1048575)
+        }
+    }
+    
 }

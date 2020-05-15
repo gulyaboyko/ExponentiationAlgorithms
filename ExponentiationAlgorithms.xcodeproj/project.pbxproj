@@ -3,10 +3,33 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		75E6AB1BB23ED2918D833FC0 /* Pods_ExponentiationAlgorithms.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54BC4B7204D29530DE610467 /* Pods_ExponentiationAlgorithms.framework */; };
+		8CA16DF810D8A8BBDE070C99 /* Pods_ExponentiationAlgorithms_ExponentiationAlgorithmsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9830B42F1773933E9D5C3127 /* Pods_ExponentiationAlgorithms_ExponentiationAlgorithmsTests.framework */; };
+		AE721A062469D9AE00EA63A5 /* test.4.out in Resources */ = {isa = PBXBuildFile; fileRef = AE7219F22469D9AE00EA63A5 /* test.4.out */; };
+		AE721A072469D9AE00EA63A5 /* test.5.in in Resources */ = {isa = PBXBuildFile; fileRef = AE7219F32469D9AE00EA63A5 /* test.5.in */; };
+		AE721A082469D9AE00EA63A5 /* test.5.out in Resources */ = {isa = PBXBuildFile; fileRef = AE7219F42469D9AE00EA63A5 /* test.5.out */; };
+		AE721A092469D9AE00EA63A5 /* test.7.out in Resources */ = {isa = PBXBuildFile; fileRef = AE7219F52469D9AE00EA63A5 /* test.7.out */; };
+		AE721A0A2469D9AE00EA63A5 /* test.6.out in Resources */ = {isa = PBXBuildFile; fileRef = AE7219F62469D9AE00EA63A5 /* test.6.out */; };
+		AE721A0B2469D9AE00EA63A5 /* test.1.in in Resources */ = {isa = PBXBuildFile; fileRef = AE7219F72469D9AE00EA63A5 /* test.1.in */; };
+		AE721A0C2469D9AE00EA63A5 /* test.2.out in Resources */ = {isa = PBXBuildFile; fileRef = AE7219F82469D9AE00EA63A5 /* test.2.out */; };
+		AE721A0D2469D9AE00EA63A5 /* test.3.out in Resources */ = {isa = PBXBuildFile; fileRef = AE7219F92469D9AE00EA63A5 /* test.3.out */; };
+		AE721A0E2469D9AE00EA63A5 /* test.0.in in Resources */ = {isa = PBXBuildFile; fileRef = AE7219FA2469D9AE00EA63A5 /* test.0.in */; };
+		AE721A0F2469D9AE00EA63A5 /* test.1.out in Resources */ = {isa = PBXBuildFile; fileRef = AE7219FB2469D9AE00EA63A5 /* test.1.out */; };
+		AE721A102469D9AE00EA63A5 /* test.4.in in Resources */ = {isa = PBXBuildFile; fileRef = AE7219FC2469D9AE00EA63A5 /* test.4.in */; };
+		AE721A112469D9AE00EA63A5 /* test.0.out in Resources */ = {isa = PBXBuildFile; fileRef = AE7219FD2469D9AE00EA63A5 /* test.0.out */; };
+		AE721A122469D9AE00EA63A5 /* test.9.in in Resources */ = {isa = PBXBuildFile; fileRef = AE7219FE2469D9AE00EA63A5 /* test.9.in */; };
+		AE721A132469D9AE00EA63A5 /* test.8.in in Resources */ = {isa = PBXBuildFile; fileRef = AE7219FF2469D9AE00EA63A5 /* test.8.in */; };
+		AE721A142469D9AE00EA63A5 /* test.3.in in Resources */ = {isa = PBXBuildFile; fileRef = AE721A002469D9AE00EA63A5 /* test.3.in */; };
+		AE721A152469D9AE00EA63A5 /* test.7.in in Resources */ = {isa = PBXBuildFile; fileRef = AE721A012469D9AE00EA63A5 /* test.7.in */; };
+		AE721A162469D9AE00EA63A5 /* test.6.in in Resources */ = {isa = PBXBuildFile; fileRef = AE721A022469D9AE00EA63A5 /* test.6.in */; };
+		AE721A172469D9AE00EA63A5 /* test.8.out in Resources */ = {isa = PBXBuildFile; fileRef = AE721A032469D9AE00EA63A5 /* test.8.out */; };
+		AE721A182469D9AE00EA63A5 /* test.2.in in Resources */ = {isa = PBXBuildFile; fileRef = AE721A042469D9AE00EA63A5 /* test.2.in */; };
+		AE721A192469D9AE00EA63A5 /* test.9.out in Resources */ = {isa = PBXBuildFile; fileRef = AE721A052469D9AE00EA63A5 /* test.9.out */; };
+		AE721A8B246EA81200EA63A5 /* ExponentiationAlgorithms.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE721A8A246EA81200EA63A5 /* ExponentiationAlgorithms.swift */; };
 		AEAE206C246572B2006C455C /* ExponentiationAlgorithms.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEAE2062246572B2006C455C /* ExponentiationAlgorithms.framework */; };
 		AEAE2071246572B2006C455C /* ExponentiationAlgorithmsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEAE2070246572B2006C455C /* ExponentiationAlgorithmsTests.swift */; };
 		AEAE2073246572B2006C455C /* ExponentiationAlgorithms.h in Headers */ = {isa = PBXBuildFile; fileRef = AEAE2065246572B2006C455C /* ExponentiationAlgorithms.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -23,12 +46,41 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A44EE2EB47DB070A4692424 /* Pods-ExponentiationAlgorithms-ExponentiationAlgorithmsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExponentiationAlgorithms-ExponentiationAlgorithmsTests.debug.xcconfig"; path = "Target Support Files/Pods-ExponentiationAlgorithms-ExponentiationAlgorithmsTests/Pods-ExponentiationAlgorithms-ExponentiationAlgorithmsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		495C70F0DC27B7861BCC1105 /* Pods-ExponentiationAlgorithms.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExponentiationAlgorithms.debug.xcconfig"; path = "Target Support Files/Pods-ExponentiationAlgorithms/Pods-ExponentiationAlgorithms.debug.xcconfig"; sourceTree = "<group>"; };
+		54BC4B7204D29530DE610467 /* Pods_ExponentiationAlgorithms.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExponentiationAlgorithms.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F668E2910A8FC58C976CCF8 /* Pods-ExponentiationAlgorithms.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExponentiationAlgorithms.release.xcconfig"; path = "Target Support Files/Pods-ExponentiationAlgorithms/Pods-ExponentiationAlgorithms.release.xcconfig"; sourceTree = "<group>"; };
+		9830B42F1773933E9D5C3127 /* Pods_ExponentiationAlgorithms_ExponentiationAlgorithmsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExponentiationAlgorithms_ExponentiationAlgorithmsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE7219F22469D9AE00EA63A5 /* test.4.out */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test.4.out; sourceTree = "<group>"; };
+		AE7219F32469D9AE00EA63A5 /* test.5.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test.5.in; sourceTree = "<group>"; };
+		AE7219F42469D9AE00EA63A5 /* test.5.out */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test.5.out; sourceTree = "<group>"; };
+		AE7219F52469D9AE00EA63A5 /* test.7.out */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test.7.out; sourceTree = "<group>"; };
+		AE7219F62469D9AE00EA63A5 /* test.6.out */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test.6.out; sourceTree = "<group>"; };
+		AE7219F72469D9AE00EA63A5 /* test.1.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test.1.in; sourceTree = "<group>"; };
+		AE7219F82469D9AE00EA63A5 /* test.2.out */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test.2.out; sourceTree = "<group>"; };
+		AE7219F92469D9AE00EA63A5 /* test.3.out */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test.3.out; sourceTree = "<group>"; };
+		AE7219FA2469D9AE00EA63A5 /* test.0.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test.0.in; sourceTree = "<group>"; };
+		AE7219FB2469D9AE00EA63A5 /* test.1.out */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test.1.out; sourceTree = "<group>"; };
+		AE7219FC2469D9AE00EA63A5 /* test.4.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test.4.in; sourceTree = "<group>"; };
+		AE7219FD2469D9AE00EA63A5 /* test.0.out */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test.0.out; sourceTree = "<group>"; };
+		AE7219FE2469D9AE00EA63A5 /* test.9.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test.9.in; sourceTree = "<group>"; };
+		AE7219FF2469D9AE00EA63A5 /* test.8.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test.8.in; sourceTree = "<group>"; };
+		AE721A002469D9AE00EA63A5 /* test.3.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test.3.in; sourceTree = "<group>"; };
+		AE721A012469D9AE00EA63A5 /* test.7.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test.7.in; sourceTree = "<group>"; };
+		AE721A022469D9AE00EA63A5 /* test.6.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test.6.in; sourceTree = "<group>"; };
+		AE721A032469D9AE00EA63A5 /* test.8.out */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test.8.out; sourceTree = "<group>"; };
+		AE721A042469D9AE00EA63A5 /* test.2.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test.2.in; sourceTree = "<group>"; };
+		AE721A052469D9AE00EA63A5 /* test.9.out */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test.9.out; sourceTree = "<group>"; };
+		AE721A8A246EA81200EA63A5 /* ExponentiationAlgorithms.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExponentiationAlgorithms.swift; sourceTree = "<group>"; };
 		AEAE2062246572B2006C455C /* ExponentiationAlgorithms.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ExponentiationAlgorithms.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEAE2065246572B2006C455C /* ExponentiationAlgorithms.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExponentiationAlgorithms.h; sourceTree = "<group>"; };
 		AEAE2066246572B2006C455C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AEAE206B246572B2006C455C /* ExponentiationAlgorithmsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExponentiationAlgorithmsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEAE2070246572B2006C455C /* ExponentiationAlgorithmsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExponentiationAlgorithmsTests.swift; sourceTree = "<group>"; };
 		AEAE2072246572B2006C455C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D65BF056BCEF1F655D204A71 /* Pods-ExponentiationAlgorithmsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExponentiationAlgorithmsTests.debug.xcconfig"; path = "Target Support Files/Pods-ExponentiationAlgorithmsTests/Pods-ExponentiationAlgorithmsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DB9A8A43338BC737857FA66A /* Pods-ExponentiationAlgorithmsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExponentiationAlgorithmsTests.release.xcconfig"; path = "Target Support Files/Pods-ExponentiationAlgorithmsTests/Pods-ExponentiationAlgorithmsTests.release.xcconfig"; sourceTree = "<group>"; };
+		E16042F6454EBAE4508AB541 /* Pods-ExponentiationAlgorithms-ExponentiationAlgorithmsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExponentiationAlgorithms-ExponentiationAlgorithmsTests.release.xcconfig"; path = "Target Support Files/Pods-ExponentiationAlgorithms-ExponentiationAlgorithmsTests/Pods-ExponentiationAlgorithms-ExponentiationAlgorithmsTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75E6AB1BB23ED2918D833FC0 /* Pods_ExponentiationAlgorithms.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,18 +97,70 @@
 			buildActionMask = 2147483647;
 			files = (
 				AEAE206C246572B2006C455C /* ExponentiationAlgorithms.framework in Frameworks */,
+				8CA16DF810D8A8BBDE070C99 /* Pods_ExponentiationAlgorithms_ExponentiationAlgorithmsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0DB44D061911899F50DE717C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				54BC4B7204D29530DE610467 /* Pods_ExponentiationAlgorithms.framework */,
+				9830B42F1773933E9D5C3127 /* Pods_ExponentiationAlgorithms_ExponentiationAlgorithmsTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7139001DF1FA83FB3C1C590F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				495C70F0DC27B7861BCC1105 /* Pods-ExponentiationAlgorithms.debug.xcconfig */,
+				5F668E2910A8FC58C976CCF8 /* Pods-ExponentiationAlgorithms.release.xcconfig */,
+				D65BF056BCEF1F655D204A71 /* Pods-ExponentiationAlgorithmsTests.debug.xcconfig */,
+				DB9A8A43338BC737857FA66A /* Pods-ExponentiationAlgorithmsTests.release.xcconfig */,
+				1A44EE2EB47DB070A4692424 /* Pods-ExponentiationAlgorithms-ExponentiationAlgorithmsTests.debug.xcconfig */,
+				E16042F6454EBAE4508AB541 /* Pods-ExponentiationAlgorithms-ExponentiationAlgorithmsTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AE7219F12469D9AE00EA63A5 /* 3.Power.Tests */ = {
+			isa = PBXGroup;
+			children = (
+				AE7219FA2469D9AE00EA63A5 /* test.0.in */,
+				AE7219FD2469D9AE00EA63A5 /* test.0.out */,
+				AE7219F72469D9AE00EA63A5 /* test.1.in */,
+				AE7219FB2469D9AE00EA63A5 /* test.1.out */,
+				AE721A042469D9AE00EA63A5 /* test.2.in */,
+				AE7219F82469D9AE00EA63A5 /* test.2.out */,
+				AE721A002469D9AE00EA63A5 /* test.3.in */,
+				AE7219F92469D9AE00EA63A5 /* test.3.out */,
+				AE7219FC2469D9AE00EA63A5 /* test.4.in */,
+				AE7219F22469D9AE00EA63A5 /* test.4.out */,
+				AE7219F32469D9AE00EA63A5 /* test.5.in */,
+				AE7219F42469D9AE00EA63A5 /* test.5.out */,
+				AE721A022469D9AE00EA63A5 /* test.6.in */,
+				AE7219F62469D9AE00EA63A5 /* test.6.out */,
+				AE721A012469D9AE00EA63A5 /* test.7.in */,
+				AE7219F52469D9AE00EA63A5 /* test.7.out */,
+				AE7219FF2469D9AE00EA63A5 /* test.8.in */,
+				AE721A032469D9AE00EA63A5 /* test.8.out */,
+				AE7219FE2469D9AE00EA63A5 /* test.9.in */,
+				AE721A052469D9AE00EA63A5 /* test.9.out */,
+			);
+			path = 3.Power.Tests;
+			sourceTree = "<group>";
+		};
 		AEAE2058246572B2006C455C = {
 			isa = PBXGroup;
 			children = (
 				AEAE2064246572B2006C455C /* ExponentiationAlgorithms */,
 				AEAE206F246572B2006C455C /* ExponentiationAlgorithmsTests */,
 				AEAE2063246572B2006C455C /* Products */,
+				7139001DF1FA83FB3C1C590F /* Pods */,
+				0DB44D061911899F50DE717C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,8 +176,10 @@
 		AEAE2064246572B2006C455C /* ExponentiationAlgorithms */ = {
 			isa = PBXGroup;
 			children = (
+				AE7219F12469D9AE00EA63A5 /* 3.Power.Tests */,
 				AEAE2065246572B2006C455C /* ExponentiationAlgorithms.h */,
 				AEAE2066246572B2006C455C /* Info.plist */,
+				AE721A8A246EA81200EA63A5 /* ExponentiationAlgorithms.swift */,
 			);
 			path = ExponentiationAlgorithms;
 			sourceTree = "<group>";
@@ -104,6 +211,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AEAE2076246572B2006C455C /* Build configuration list for PBXNativeTarget "ExponentiationAlgorithms" */;
 			buildPhases = (
+				DF0DE47EE467B31328D1FB4B /* [CP] Check Pods Manifest.lock */,
 				AEAE205D246572B2006C455C /* Headers */,
 				AEAE205E246572B2006C455C /* Sources */,
 				AEAE205F246572B2006C455C /* Frameworks */,
@@ -122,9 +230,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AEAE2079246572B2006C455C /* Build configuration list for PBXNativeTarget "ExponentiationAlgorithmsTests" */;
 			buildPhases = (
+				58476F1AA8496F9BB0058811 /* [CP] Check Pods Manifest.lock */,
 				AEAE2067246572B2006C455C /* Sources */,
 				AEAE2068246572B2006C455C /* Frameworks */,
 				AEAE2069246572B2006C455C /* Resources */,
+				CDFEC6B52429E55E93AE1219 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -148,6 +258,7 @@
 				TargetAttributes = {
 					AEAE2061246572B2006C455C = {
 						CreatedOnToolsVersion = 11.3;
+						LastSwiftMigration = 1130;
 					};
 					AEAE206A246572B2006C455C = {
 						CreatedOnToolsVersion = 11.3;
@@ -178,6 +289,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE721A162469D9AE00EA63A5 /* test.6.in in Resources */,
+				AE721A062469D9AE00EA63A5 /* test.4.out in Resources */,
+				AE721A0D2469D9AE00EA63A5 /* test.3.out in Resources */,
+				AE721A192469D9AE00EA63A5 /* test.9.out in Resources */,
+				AE721A182469D9AE00EA63A5 /* test.2.in in Resources */,
+				AE721A092469D9AE00EA63A5 /* test.7.out in Resources */,
+				AE721A152469D9AE00EA63A5 /* test.7.in in Resources */,
+				AE721A122469D9AE00EA63A5 /* test.9.in in Resources */,
+				AE721A132469D9AE00EA63A5 /* test.8.in in Resources */,
+				AE721A0F2469D9AE00EA63A5 /* test.1.out in Resources */,
+				AE721A072469D9AE00EA63A5 /* test.5.in in Resources */,
+				AE721A0A2469D9AE00EA63A5 /* test.6.out in Resources */,
+				AE721A142469D9AE00EA63A5 /* test.3.in in Resources */,
+				AE721A082469D9AE00EA63A5 /* test.5.out in Resources */,
+				AE721A0B2469D9AE00EA63A5 /* test.1.in in Resources */,
+				AE721A102469D9AE00EA63A5 /* test.4.in in Resources */,
+				AE721A172469D9AE00EA63A5 /* test.8.out in Resources */,
+				AE721A0C2469D9AE00EA63A5 /* test.2.out in Resources */,
+				AE721A112469D9AE00EA63A5 /* test.0.out in Resources */,
+				AE721A0E2469D9AE00EA63A5 /* test.0.in in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -190,11 +321,76 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		58476F1AA8496F9BB0058811 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ExponentiationAlgorithms-ExponentiationAlgorithmsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CDFEC6B52429E55E93AE1219 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ExponentiationAlgorithms-ExponentiationAlgorithmsTests/Pods-ExponentiationAlgorithms-ExponentiationAlgorithmsTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ExponentiationAlgorithms-ExponentiationAlgorithmsTests/Pods-ExponentiationAlgorithms-ExponentiationAlgorithmsTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ExponentiationAlgorithms-ExponentiationAlgorithmsTests/Pods-ExponentiationAlgorithms-ExponentiationAlgorithmsTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF0DE47EE467B31328D1FB4B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ExponentiationAlgorithms-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AEAE205E246572B2006C455C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE721A8B246EA81200EA63A5 /* ExponentiationAlgorithms.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,7 +535,9 @@
 		};
 		AEAE2077246572B2006C455C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 495C70F0DC27B7861BCC1105 /* Pods-ExponentiationAlgorithms.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = UBR9UU276M;
@@ -356,6 +554,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.gulya.boiko.ExponentiationAlgorithms;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -363,7 +562,9 @@
 		};
 		AEAE2078246572B2006C455C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F668E2910A8FC58C976CCF8 /* Pods-ExponentiationAlgorithms.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = UBR9UU276M;
@@ -387,7 +588,9 @@
 		};
 		AEAE207A246572B2006C455C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A44EE2EB47DB070A4692424 /* Pods-ExponentiationAlgorithms-ExponentiationAlgorithmsTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UBR9UU276M;
 				INFOPLIST_FILE = ExponentiationAlgorithmsTests/Info.plist;
@@ -405,7 +608,9 @@
 		};
 		AEAE207B246572B2006C455C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E16042F6454EBAE4508AB541 /* Pods-ExponentiationAlgorithms-ExponentiationAlgorithmsTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UBR9UU276M;
 				INFOPLIST_FILE = ExponentiationAlgorithmsTests/Info.plist;
